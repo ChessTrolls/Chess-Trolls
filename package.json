@@ -1,0 +1,21 @@
+{
+  "name": "chesstrolls",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "signaling": "node ./server/signaling-server.js"
+  },
+  "dependencies": {
+    "next": "13.5.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "firebase": "9.23.0",
+    "chess.js": "1.0.0",
+    "react-chessboard": "1.4.0",
+    "stripe": "12.8.0",
+    "swr": "2.2.0",
+    "uuid": "9.0.0"
+  }
+}
